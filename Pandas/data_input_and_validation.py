@@ -22,3 +22,10 @@ print(df.head())
 print(df.head(10))
 print(df.tail())
 print(df.tail(10))
+
+
+# info() provides a summary of the dataframe 
+# including number of entries, data type and 
+# number of non-null entries for each series in dataframe
+
+print(df.info())
